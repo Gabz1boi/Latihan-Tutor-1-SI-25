@@ -22,7 +22,11 @@ public class Program {
         if (x > y) {
             System.out.println(" Bilangan Pertama lebih besar ");
         } else {
-            System.out.println(" Bilangan Kedua lebih besar ");
+            if (y > x) {
+                System.out.println(" Bilangan kedua lebih besar ");
+            } else {
+                System.out.println(" Kedua Bilangan sama besar ");
+            }
         }
         if (x % 2 == 0 && y % 2 == 0) {
             System.out.println(" Hasil Penjumlahan " + x + y);
