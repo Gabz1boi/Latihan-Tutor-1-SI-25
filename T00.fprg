@@ -4,9 +4,9 @@
         <attribute name="name" value="TU01"/>
         <attribute name="authors" value="LOQ"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-01 08:56:45 PM"/>
+        <attribute name="saved" value="2025-10-01 09:03:08 PM"/>
         <attribute name="created" value="TE9RO0xBUFRPUC1VOFZUMlM5NTsyMDI1LTEwLTAxOzA4OjI0OjQ3IFBNOzI1Nzk="/>
-        <attribute name="edited" value="TE9RO0xBUFRPUC1VOFZUMlM5NTsyMDI1LTEwLTAxOzA4OjU2OjQ1IFBNOzM7MjY5Mg=="/>
+        <attribute name="edited" value="TE9RO0xBUFRPUC1VOFZUMlM5NTsyMDI1LTEwLTAxOzA5OjAzOjA4IFBNOzQ7MjY4NQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -52,7 +52,7 @@
                 <else>
                     <if expression="x MOD 2 != 0 AND y mod 2 != 0">
                         <then>
-                            <output expression="&quot; Kedua ganjil, Hasil Perkalian&quot; &amp; x * y" newline="True"/>
+                            <output expression="&quot;Hasil Perkalian&quot; &amp; x * y" newline="True"/>
                         </then>
                         <else>
                             <output expression="&quot;Berbeda Jenis&quot;" newline="True"/>

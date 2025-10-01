@@ -32,7 +32,7 @@ public class Program {
             System.out.println(" Hasil Penjumlahan " + x + y);
         } else {
             if (x % 2 != 0 && y % 2 != 0) {
-                System.out.println(" Kedua ganjil, Hasil Perkalian" + x * y);
+                System.out.println("Hasil Perkalian" + x * y);
             } else {
                 System.out.println("Berbeda Jenis");
             }
