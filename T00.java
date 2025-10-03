@@ -9,8 +9,8 @@ public class T00 {
     public static void main(String[] args) {
         int x, y;
 
-        x = Integer.parseInt(input.nextLine());
-        y = Integer.parseInt(input.nextLine());
+        x = input.nextInt();
+        y = input.nextInt();
         if (x % 2 == 0) {
             System.out.println(" Bilangan pertama: Genap ");
         } else {
